@@ -8,7 +8,7 @@ public class Bean {
 		return Nom;
 	}
 	
-	public void setPrenom(String nom) {
+	public void setPrenom(String prenom) {
 		prenom = prenom;
 	}
 	public String getAdresse() {
