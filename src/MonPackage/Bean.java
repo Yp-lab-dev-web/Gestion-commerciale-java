@@ -1,15 +1,15 @@
 package MonPackage;
 
 public class Bean {
-	private String Nom;
+	private String prenom;
 	private String adresse ;
 	private boolean etat ;
 	public String getNom() {
 		return Nom;
 	}
 	
-	public void setNom(String nom) {
-		Nom = nom;
+	public void setPrenom(String nom) {
+		prenom = prenom;
 	}
 	public String getAdresse() {
 		return adresse;
