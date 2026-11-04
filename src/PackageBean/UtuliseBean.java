@@ -10,13 +10,11 @@ public class UtuliseBean {
 		bean1.setNom("moe");
 	   System.out.println("nom : " + bean1.getNom());
 	   bean1.setNom("homer");
-	  
-	   
-		
-		
-		
-		
-
-	}
+	
+	   	}
 
 }
+
+
+
+

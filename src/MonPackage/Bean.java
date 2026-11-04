@@ -2,20 +2,20 @@ package MonPackage;
 
 public class Bean {
 	private String Nom;
-	private String Prenom;
+	private String adresse ;
 	private boolean etat ;
-	
 	public String getNom() {
 		return Nom;
 	}
+	
 	public void setNom(String nom) {
 		Nom = nom;
 	}
-	public String getPrenom() {
-		return Prenom;
+	public String getAdresse() {
+		return adresse;
 	}
-	public void setPrenom(String prenom) {
-		Prenom = prenom;
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
 	}
 	public boolean isEtat() {
 		return etat;
@@ -23,7 +23,6 @@ public class Bean {
 	public void setEtat(boolean etat) {
 		this.etat = etat;
 	}
-	
 	
 
 }
